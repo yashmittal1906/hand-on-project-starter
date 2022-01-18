@@ -1,0 +1,114 @@
+.dashboard {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background: #ffffff;
+    margin: 1%;
+}
+
+.logo {
+    display: flex;
+}
+
+
+.loginButton {
+    width: 133px;
+    height: 44px;
+    background: #142683;
+    border-radius: 5px;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+    padding:90px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topCard {
+    width:1300px;
+    background: #C3E7FD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topCardPhoto {
+    width: 294px;
+    height: 186px;
+}
+
+.semiCircle {
+    width: 107px;
+    height: 186px;
+    background: #D3B4F6;
+    border-radius: 1000px 0px 0px 1000px;
+    transform: rotate(-180deg);
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.topText {
+    width: 495px;
+    // height: 58px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 58px;
+    font-weight: bold;
+
+    letter-spacing: -0.02em;
+    margin-top: 6%;
+    margin-left: 1%;
+    color: #000000;
+}
+
+
+.bottomText {
+    width: 319px;
+    height: 36px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    margin-top: 0%;
+    margin-left: 3%;
+    color: #566474;
+}
+
+.viewButton {
+    width: 133px;
+    height: 44px;
+    background: #1E272E;
+    border-radius: 5px;
+    opacity: 1;
+    color: #E5E5E5;
+     margin-top: 6%;
+     margin-left: 10%;
+}
+
+.cards {
+    display: grid;
+    grid:250px / auto auto auto auto;
+    grid-gap:60px;
+    background: #E5E5E5;
+    margin-left: 1%;
+    margin-top: 2%;
+}
