@@ -1,0 +1,188 @@
+.login {
+    background: #FFFFFF;
+}
+
+.welcome {
+    position: absolute;
+    width: 717px;
+    height: 812px;
+    left: 0px;
+    top: 90px;
+
+    // background: #E5E5E5;
+
+    background: rgba(247, 248, 250, 0.5);
+    // transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.message {
+    position: absolute;
+    width: 381px;
+    height: 124px;
+    left: 119px;
+    top: 311px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+
+    /* primary text */
+
+    color: #1E272E;
+}
+
+.smallMessage {
+    position: absolute;
+    width: 480px;
+    height: 135px;
+    left: 119px;
+    top: 475px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 160%;
+    /* or 45px */
+
+    letter-spacing: -0.02em;
+
+    /* secondary text */
+
+    color: #566474;
+}
+
+.imageContainer {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 119px;
+    top: 197px;
+
+    background: #FFFFFF;
+}
+
+
+.image {
+    position: absolute;
+    left: 10.05%;
+    right: 87.68%;
+    top: 33.64%;
+    bottom: 61.69%;
+
+    /* dark blue */
+
+    border: 1.5px solid #142683;
+}
+
+
+.loginContainer {
+    position: absolute;
+    width: 498px;
+    height: 404px;
+    left: 836px;
+    top: 226px;
+
+    border: 1px solid #DFE0E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.heading {
+    
+    position: absolute;
+    width: 197px;
+    height: 26px;
+    left: 885px;
+    top: 289px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.email {
+    position: absolute;
+    width: 300px;
+    height: 21px;
+    left: 885px;
+    top: 389px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* tertiary text */
+
+    color: #9EAAB7;
+
+}
+
+
+.password {
+    position: absolute;
+    width: 300px;
+    height: 21px;
+    left: 885px;
+    top: 449px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* tertiary text */
+
+    color: #9EAAB7;
+
+
+    /* Inside auto layout */
+
+}
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 885px;
+    top: 523px;
+
+    background: #142683;
+    border-radius: 5px;
+}
+
+
+.logo {
+    background: #FFFFFF;
+    position: absolute;
+    width: 120px;
+    height: 29.24px;
+    left: 50px;
+    top: 28px;
+}
